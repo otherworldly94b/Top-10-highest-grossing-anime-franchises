@@ -6,11 +6,17 @@
     border: none;
 }
 
-body {
-    font-weight: 300;
-    color: #3a3a3a;
+/* Headings and Logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
 }
 
-h1 {
+#logo {
     font-family: 'Rubik Iso', cursive;
+    float: left;
+    font-size: 300%;
 }
