@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Noto+Serif+Lao&family=Rubik+Iso&display=swap');
 
 * {
     margin: 0;
@@ -42,6 +43,7 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
+    font-weight: 600;
 }
 
 #menu a:hover {
@@ -105,12 +107,22 @@ h1, h2 {
 
 #top-10 div {
     width: 10%;
-    height: 300px;
+    height: 450px;
     float: left;
-    padding: 0;
+    padding-bottom: 200px;
     border: 10px solid white;
     box-sizing: border-box;
     overflow: hidden;
+    display: block;
+}
+
+#top-10 a {
+    text-align: left;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Oswald, sans-serif;
+    font-size: medium;
 }
 
 #top-10 img {
