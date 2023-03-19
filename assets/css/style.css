@@ -123,7 +123,7 @@ h1, h2 {
     text-decoration: none;
     color: black;
     font-family: Oswald, sans-serif;
-    font-size: medium;
+    font-size: 78%;
 }
 
 #top-10 img {
@@ -152,7 +152,7 @@ h1, h2 {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-    padding-top: 100px;
+    padding-top: 80px;
     font-size: 125%;
 }
 
