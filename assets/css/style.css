@@ -78,7 +78,7 @@ h1, h2 {
 
 
 #cover-text {
-    font-size: 150%;
+    /* font-size: 150%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -93,28 +93,55 @@ h1, h2 {
 
     text-align: center;
     
+    position: absolute; */
+
+    font-size: 200%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255,255,255, 0.7);
+    bottom: 150px;
+    text-align: center;
     position: absolute;
 }
+
 
 /* Top 10 */
 
 #top-10 {
-    height: 300px;
+    /* height: 300px;
     width: 100%;
     overflow: hidden;
 
     position: relative;
 
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
+
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    margin-top: 60px;
 }
 
 #top-10 div {
-    width: 10%;
+    /* width: 10%;
     height: 450px;
     float: left;
     padding-bottom: 200px;
     border: 10px solid white;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block; */
+
+    width: 10%;
+    height: 390px;
+    float: left;
+    padding-bottom: 130px;
+    border: 5px solid white;
     box-sizing: border-box;
     overflow: hidden;
     display: block;
@@ -188,20 +215,75 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #cover-text {
-        width: 100%;
+    
+    #logo {
+        font-family: 'Rubik Iso', cursive;
+        float: left;
+        font-size: 300%;
+        padding-left: 192px;
+    }
+
+    #menu {
+        /* clear: left; */
+        float: right;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #top-10 div {
+        /* width: 20%;
+        height: 450px;
+        float: left;
+        padding-bottom: 200px;
+        border: 10px solid white;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: block; */
+
+        width: 20%;
+        padding-bottom: 110px;
+    }
+
+    #times div {
+        color: #fafafa;
+        background-color: rgba(0, 0, 0, .6);
+        width: 25%;
+        height: auto;
+        float: left;
+        text-align: center;
+        border: 2px solid white;
+        box-sizing: border-box;
+        /* padding-top: 80px; */
+        font-size: 100%;
+        padding: 20px;
     }
 }
 
 
-/* For smaller to medium screens size from 950px wide and down */
-@media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
+/* For smaller to medium screens size from 768px wide and down */
+@media screen and (max-width: 768px) {
+
+    #logo {
+        font-family: 'Rubik Iso', cursive;
         float: left;
-        margin-left: 30px;
+        font-size: 300%;
+        padding-left: 19px;
+    }
+
+    #menu {
+        /* clear: left; */
+        float: left;
+        margin-left: 60px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+    
+    #top-10 a {
+        clear: left;
+        width: 100%;
+        height: 50%;
+        float: none;
     }
     
 }
