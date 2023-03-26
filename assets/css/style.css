@@ -206,6 +206,29 @@ footer {
 }
 
 
+/* Form */
+
+.form-section {
+    background: url("../images/we_want_you.jpg") no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-left: 100px;
+}
+
+#form {
+    clear: both;
+    border: 1px solid black;
+    width: 50%;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    
+}
+
+
 /* media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
