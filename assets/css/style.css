@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Rubik+Iso&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Noto+Serif+Lao&family=Rubik+Iso&display=swap');
 
 * {
@@ -8,7 +7,6 @@
 }
 
 /* Headings and Logo */
-
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -24,7 +22,6 @@ h1, h2 {
 }
 
 /* Navigation links */
-
 #menu {
     font-size: 100%;
     letter-spacing: 4px;
@@ -56,7 +53,6 @@ h1, h2 {
 }
 
 /* Hero image and cover text */
-
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -70,7 +66,8 @@ h1, h2 {
 }
 
 #hero-image {
-    background: url(../images/34-345522_all-anime-characters-wallpaper-hd.jpg) no-repeat center center;
+    background: url(../images/all_anime_characters.webp) no-repeat center center;
+    background-size: cover;
     width: 100%;
     height: 600px;
     clear: both;
@@ -93,7 +90,6 @@ h1, h2 {
 
 
 /* Top 10 */
-
 #top-10 {
     height: auto;
     width: auto;
@@ -129,7 +125,6 @@ h1, h2 {
 }
 
 /* Meet times */
-
 #times {
     background: url(../images/anime_cafe.webp);
     width: 100%;
@@ -158,7 +153,6 @@ h1, h2 {
 }
 
 /* footer */
-
 footer {
     height: 150px;
 }
@@ -180,7 +174,6 @@ footer {
 
 
 /* Gallery */
-
 #photos {
     clear: both;
     line-height: 0;
@@ -207,9 +200,8 @@ footer {
 
 
 /* Form */
-
 .form-section {
-    background: url("../images/we_want_you.jpg") no-repeat;
+    background: url("../images/we_want_you.webp") no-repeat;
     background-size: contain;
     height: 500px;
     background-position: center;
@@ -335,8 +327,8 @@ footer {
     }
 }
 
-/* For small screens size from 425px wide and down */
-@media screen and (max-width:425px) {
+/* For small screens size from 600px wide and down */
+@media screen and (max-width:600px) {
 
     #logo {
         font-family: 'Rubik Iso', cursive;
@@ -397,3 +389,9 @@ footer {
         column-gap: 2px;
     }
 }
+
+/* Reminders of what I have to do after the mentor meeting */
+make pics smaller.
+use lighthouse
+Fix media queries to be 600px and down
+edit pics as an example to be 400x600 and test
