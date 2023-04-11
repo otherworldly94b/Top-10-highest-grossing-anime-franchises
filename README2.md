@@ -66,7 +66,7 @@ It is meant to provide some current information on the top 10 highest grossing a
 - Tested on browsers: Chrome and Edge
 - I tested for responsiveness on all standard screen sizes using devtools.
 - All text is readable and easy to understand
-- The form functions correctly, requires input on all field and the email field requires an email address. The submit button also works.
+- The form functions correctly, requires input on all fields and the email field requires an email address. The submit button also works.
 
 ## Bugs
 
@@ -86,3 +86,40 @@ I believe I have used absolute file paths so that may present a problem.
     - The colours and fonts are easy to read and have passed the lighthouse devtools test
 
     ![lighthouse](assets/images/lighthouse.png)
+
+## Unfixed Bugs
+
+No unfixed bugs
+
+## Deployment
+---
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the left-hand side menu, find and click on the Pages tab
+    - Choose a branch you want to deploy from (e.g main)
+    - Click save and wait a few minutes for your page to be deployed.
+    - Refresh the page to view the link for your page. 
+
+## Credits
+---
+### Content
+- Code was taken and inspired from the [Love Running](https://github.com/otherworldly94b/love-running) project for a lot of this current project.
+- The biggest similarities should be in social media links, the "times" section and the Gallery page.
+- The signup page should also have similarities but the code for it was written by me in the Love Running project as well.
+- Some CSS code was also inspired from the [Love Running](https://github.com/otherworldly94b/love-running) project.
+
+### Media
+- All images were taken from the web and links to their origin  will be provided below.
+    - [Pokemon](https://www.imdb.com/title/tt0168366/)
+    - [Anpanman](https://myanimelist.net/anime/1960/Sore_Ike_Anpanman)
+    - [Hello Kitty](https://en.wikipedia.org/wiki/Hello_Kitty)
+    - [Dragon Ball](https://www.imdb.com/title/tt0088509/)
+    - [Yu-Gi-Oh!](https://www.imdb.com/title/tt0249327/)
+    - [Fist of the North Star](https://en.wikipedia.org/wiki/Fist_of_the_North_Star)
+    - [Sailor Moon](https://www.imdb.com/title/tt0114327/)
+    - [Neon Genesis Evangelion](https://www.imdb.com/title/tt0112159/)
+    - [One Piece](https://www.imdb.com/title/tt0388629/)
+    - [Pretty Cure](https://prettycure.fandom.com/wiki/Smile_Pretty_Cure!)
+    - [We want you](https://www.pinterest.com/pin/i-need-you-for-nerv--75364993734479331/)
+    - [Anime cafe](https://wallpapers.com/cafe-anime)
+    - [All anime characters](https://wallpaperaccess.com/anime-all-characters-hd)
