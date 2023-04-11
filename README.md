@@ -4,7 +4,7 @@ The Anime World website was built for anime fans of all ages.
 
 It is meant to provide some current information on the top 10 highest grossing anime franchises in history but also provide meeting times for people with this particular instead to meet for a coffee or drink and discuss their favourite anime.
 
-![Responsiveness screenshot](photo link)
+![Responsiveness screenshot](assets/images/Am_I_responsive.png)
 
 ## Features
 ---
@@ -64,14 +64,14 @@ It is meant to provide some current information on the top 10 highest grossing a
 ## Testing
 ---
 - Tested on browsers: Chrome and Edge
-- I tested for responsiveness on all standard screen sizes using devtools.
+- I tested for responsiveness on all standard screen sizes using devtools and the "Am I Responsive website".
 - All text is readable and easy to understand
 - The form functions correctly, requires input on all fields and the email field requires an email address. The submit button also works.
 
 ## Bugs
 
-This has not been deployed to GitHub Pages yet but I will test it more when I do have it deployed.
-I believe I have used absolute file paths so that may present a problem.
+This project has been deployed to GitHub Pages but I have yet to find any issues.
+All links and CSS work correctly. 
 
 ## Validator Testing
 
