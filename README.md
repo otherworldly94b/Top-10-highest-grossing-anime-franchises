@@ -2,7 +2,7 @@
 ---
 The Anime World website was built for anime fans of all ages.
 
-It is meant to provide some current information on the top 10 highest grossing anime franchises in history but also provide meeting times for people with this particular instead to meet for a coffee or drink and discuss their favourite anime.
+It is meant to provide some current information on the top 10 highest grossing anime franchises in history but also provide meeting times for people with this particular interest to meet up for a coffee or drink and discuss their favourite anime.
 
 ![Responsiveness screenshot](assets/images/Am_I_responsive.png)
 
